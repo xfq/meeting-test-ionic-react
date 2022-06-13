@@ -1,0 +1,232 @@
+{
+  "schedule": [
+    {
+      "date": "2021-07-24",
+      "groups": [
+        {
+          "time": "14:00",
+          "sessions": [
+            {
+              "name": "会议开场及介绍",
+              "timeStart": "14:00",
+              "timeEnd": "14:10",
+              "location": "Dining Hall",
+              "tracks": ["Food"],
+              "id": "1"
+            }
+          ]
+        },
+        {
+          "time": "14:10",
+          "sessions": [
+            {
+              "name": "预录视频：WebXR现状与未来",
+              "location": "Hall 2",
+              "description": "这是对分享内容的介绍。",
+              "speakerNames": ["讲者1"],
+              "timeStart": "14:10",
+              "timeEnd": "14:25",
+              "tracks": ["Audio"],
+              "id": "2"
+            },
+            {
+              "name": "跨平台移动Web AR的关键技术介绍及应用",
+              "location": "Executive Ballroom",
+              "description": "这是对分享内容的介绍。",
+              "speakerNames": ["讲者2"],
+              "timeStart": "14:25",
+              "timeEnd": "14:55",
+              "tracks": ["Tooling"],
+              "id": "3"
+            },
+            {
+              "name": "WebXR探索与实践",
+              "location": "Hall 3",
+              "description": "这是对分享内容的介绍。",
+              "speakerNames": ["讲者3"],
+              "timeStart": "14:55",
+              "timeEnd": "15:25",
+              "tracks": ["Audio"],
+              "id": "4"
+            },
+            {
+              "name": "关于体积视频 - WebXR中的沉浸式内容",
+              "location": "Hall 3",
+              "description": "这是对分享内容的介绍。",
+              "speakerNames": ["讲者4"],
+              "timeStart": "15:25",
+              "timeEnd": "15:55",
+              "tracks": ["Audio"],
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "time": "16:05",
+          "sessions": [
+            {
+              "name": "预录视频：XR 无障碍用户需求",
+              "location": "Hall 1",
+              "description": "这是对分享内容的介绍。",
+              "speakerNames": ["讲者1", "讲者2"],
+              "timeStart": "16:05",
+              "timeEnd": "16:20",
+              "tracks": ["Audio"],
+              "id": "6"
+            },
+            {
+              "name": "AI驱动下的XR内容生成",
+              "location": "Hall 3",
+              "description": "这是对分享内容的介绍。",
+              "speakerNames": ["讲者3"],
+              "timeStart": "16:20",
+              "timeEnd": "16:50",
+              "tracks": ["Testing"],
+              "id": "7"
+            },
+            {
+              "name": "AR/VR产品设计分析和发展趋势预测",
+              "location": "Hall 2",
+              "description": "这是对分享内容的介绍。",
+              "speakerNames": ["讲者4"],
+              "timeStart": "16:50",
+              "timeEnd": "17:20",
+              "tracks": ["Design"],
+              "id": "8"
+            }
+          ]
+        },
+        {
+          "time": "17:20",
+          "sessions": [
+            {
+              "name": "会议总结",
+              "location": "Hall 1",
+              "description": "总结本次会议。",
+              "speakerNames": ["主持人"],
+              "timeStart": "17:20",
+              "timeEnd": "17:30",
+              "tracks": ["Accessibility"],
+              "id": "9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "speakers": [
+    {
+      "name": "讲者1",
+      "profilePic": "/assets/img/speakers/bear.jpg",
+      "wechat": "w3c",
+      "tiktok": "w3c",
+      "about": "Burt is a Bear. Burt's interests include poetry, dashing space heroes, and lions.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "讲者1@example.com",
+      "phone": "+8613012345678",
+      "id": "1"
+    },
+    {
+      "name": "讲者2",
+      "profilePic": "/assets/img/speakers/cheetah.jpg",
+      "wechat": "w3c",
+      "tiktok": "w3c",
+      "about": "Charlie is a Cheetah. Charlie's interests include country music, plush animals, pyrotechnics, and skeletons.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "讲者2@example.com",
+      "phone": "+8613012345678",
+      "id": "2"
+    },
+    {
+      "name": "讲者3",
+      "profilePic": "/assets/img/speakers/duck.jpg",
+      "wechat": "w3c",
+      "tiktok": "w3c",
+      "about": "Donald is a Duck. Donald's interests include carpentry, superheroes, merpeople, and glam rock.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "讲者3@example.com",
+      "phone": "+8613012345678",
+      "id": "3"
+    },
+    {
+      "name": "讲者4",
+      "profilePic": "/assets/img/speakers/eagle.jpg",
+      "wechat": "w3c",
+      "tiktok": "w3c",
+      "about": "Eva is an Eagle. Eva's interests include ants, seashells, and cupcakes.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "讲者4@example.com",
+      "phone": "+8613012345678",
+      "id": "4"
+    },
+    {
+      "name": "主持人",
+      "profilePic": "/assets/img/speakers/elephant.jpg",
+      "wechat": "w3c",
+      "tiktok": "w3c",
+      "about": "Ellie is an Elephant. Ellie's interests include pocket watches, pool, hand fans, and ninjas.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "主持人@example.com",
+      "phone": "+8613012345678",
+      "id": "5"
+    }
+  ],
+
+  "map": [
+    {
+      "name": "Hilton Fukuoka Sea Hawk",
+      "lat": 33.595071527427386,
+      "lng": 130.35935018234787,
+      "center": true
+    }
+  ],
+
+  "tracks": [
+    {
+      "name": "Testing",
+      "icon": "logo-testing"
+    },
+    {
+      "name": "Documentation",
+      "icon": "document"
+    },
+    {
+      "name": "Food",
+      "icon": "restaurant"
+    },
+    {
+      "name": "Audio",
+      "icon": "play-outline"
+    },
+    {
+      "name": "Tooling",
+      "icon": "hammer"
+    },
+    {
+      "name": "Design",
+      "icon": "color-palette"
+    },
+    {
+      "name": "Services",
+      "icon": "cog"
+    },
+    {
+      "name": "Accessibility",
+      "icon": "accessibility-outline"
+    },
+    {
+      "name": "Communication",
+      "icon": "call"
+    },
+    {
+      "name": "Navigation",
+      "icon": "compass"
+    }
+  ]
+}

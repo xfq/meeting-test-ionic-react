@@ -1,0 +1,7 @@
+{
+  "name": "chinese-ig-202107",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

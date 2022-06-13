@@ -1,0 +1,14 @@
+{
+  "short_name": "W3C 沉浸式 Web 线上研讨会",
+  "name": "W3C 沉浸式 Web 线上研讨会",
+  "icons": [
+    {
+      "src": "assets/icon/favicon.ico",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
