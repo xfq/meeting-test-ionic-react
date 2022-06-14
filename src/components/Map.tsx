@@ -34,6 +34,8 @@ const Map: React.FC<MapProps> = ({ mapCenter, locations }) => {
 
       })
       .catch((e) => {
+        document.getElementById('map-container')!.innerHTML = '<h1 style="text-align:center;">地图初始化失败！</h1>';
+
         console.log(e);
       });
   }, [mapCenter, locations]);
